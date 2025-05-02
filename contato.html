@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Segurança Cibernética Academia</title>
+    <meta name="description" content="Entre em contato com a Segurança Cibernética Academia em Sorocaba para colaborações, eventos ou dúvidas.">
+    <meta name="keywords" content="segurança cibernética, cibersegurança, Sorocaba, contato, comunidade">
+    <meta name="author" content="Segurança Cibernética Academia">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="images/logo.svg" alt="Logotipo Segurança Cibernética Academia" class="w-12 h-12 mr-2">
+                <h1 class="text-2xl font-bold">Segurança Cibernética Academia</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
+                    <li><a href="artigos.html" class="hover:text-blue-300">Artigos</a></li>
+                    <li><a href="eventos.html" class="hover:text-blue-300">Eventos</a></li>
+                    <li><a href="#forum" class="hover:text-blue-300">Fórum</a></li>
+                    <li><a href="contato.html" class="hover:text-blue-300">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contato Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-4 text-center">Entre em Contato</h2>
+            <p class="text-lg text-center mb-6">Quer colaborar, sugerir um artigo ou organizar um evento em Sorocaba? Fale comigo!</p>
+            <div class="max-w-md mx-auto bg-white p-6 shadow rounded">
+                <form action="https://formspree.io/f/seu-id" method="POST">
+                    <input type="text" name="nome" placeholder="Nome" class="w-full p-2 mb-4 rounded border" required>
+                    <input type="email" name="email" placeholder="E-mail" class="w-full p-2 mb-4 rounded border" required>
+                    <textarea name="mensagem" placeholder="Mensagem" class="w-full p-2 mb-4 rounded border" rows="4" required></textarea>
+                    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 w-full">Enviar</button>
+                </form>
+            </div>
+            <div class="text-center mt-6">
+                <p class="text-gray-600">Ou me contate diretamente:</p>
+                <p class="text-lg">E-mail: seu-email@exemplo.com</p>
+                <p class="text-lg">WhatsApp: <a href="https://wa.me/5515999999999" class="text-blue-600 hover:underline">+55 15 99999-9999</a></p>
+                <p class="text-lg">LinkedIn: <a href="https://linkedin.com/in/seu-perfil" class="text-blue-600 hover:underline">Seu Perfil</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 Segurança Cibernética Academia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
