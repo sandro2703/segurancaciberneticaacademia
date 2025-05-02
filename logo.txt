@@ -1,0 +1,1 @@
+<img src="images/logo.svg" alt="Logotipo Segurança Cibernética Academia" class="w-12 h-12 mr-2">

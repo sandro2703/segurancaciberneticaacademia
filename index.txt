@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança Cibernética Academia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://images.unsplash.com/photo-1622278647429-04b2c73b1efe?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Cadeado Digital" class="w-12 h-12 mr-2">
+                <h1 class="text-2xl font-bold">Segurança Cibernética Academia</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
+                    <li><a href="artigos.html" class="hover:text-blue-300">Artigos</a></li>
+                    <li><a href="#eventos" class="hover:text-blue-300">Eventos</a></li>
+                    <li><a href="#forum" class="hover:text-blue-300">Fórum</a></li>
+                    <li><a href="contato.html" class="hover:text-blue-300">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-blue-800 text-white py-20 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-4">Bem-vindo à Segurança Cibernética Academia</h2>
+            <p class="text-lg mb-6">Construindo uma comunidade de aprendizado em segurança cibernética em Sorocaba.</p>
+            <a href="artigos.html" class="bg-yellow-500 text-black px-6 py-2 rounded hover:bg-yellow-600">Leia nossos artigos</a>
+        </div>
+    </section>
+
+    <!-- Artigos Section -->
+    <section id="artigos" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-4 text-center">Últimos Artigos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-4 shadow rounded">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Segurança de Rede" class="w-full h-40 object-cover rounded mb-2">
+                    <h3 class="text-xl font-semibold mb-2">Como Proteger Sua Rede Wi-Fi</h3>
+                    <p class="text-gray-600">Dicas práticas para garantir a segurança da sua rede sem fio.</p>
+                    <a href="artigos.html" class="text-blue-600 hover:underline mt-2 inline-block">Leia mais</a>
+                </div>
+                <div class="bg-white p-4 shadow rounded">
+                    <img src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Phishing" class="w-full h-40 object-cover rounded mb-2">
+                    <h3 class="text-xl font-semibold mb-2">O que é Phishing e Como Evitá-lo</h3>
+                    <p class="text-gray-600">Identifique e proteja-se contra ataques de phishing.</p>
+                    <a href="artigos.html" class="text-blue-600 hover:underline mt-2 inline-block">Leia mais</a>
+                </div>
+                <div class="bg-white p-4 shadow rounded">
+                    <img src="https://images.unsplash.com/photo-1516321310764-959200eb3b04?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Iniciantes" class="w-full h-40 object-cover rounded mb-2">
+                    <h3 class="text-xl font-semibold mb-2">Primeiros Passos em Segurança Cibernética</h3>
+                    <p class="text-gray-600">Guia para iniciantes em cibersegurança.</p>
+                    <a href="artigos.html" class="text-blue-600 hover:underline mt-2 inline-block">Leia mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos Section -->
+    <section id="eventos" class="bg-gray-200 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-4 text-center">Eventos em Sorocaba</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 shadow rounded">
+                    <h3 class="text-xl font-semibold mb-2">Workshop: Introdução à Cibersegurança</h3>
+                    <p class="text-gray-600">Data: 15/06/2025 | Local: Sorocaba Tech Hub</p>
+                    <a href="#" class="text-blue-600 hover:underline mt-2 inline-block">Saiba mais</a>
+                </div>
+                <div class="bg-white p-4 shadow rounded">
+                    <h3 class="text-xl font-semibold mb-2">Meetup: Segurança em Nuvem</h3>
+                    <p class="text-gray-600">Data: 20/07/2025 | Local: Coworking Sorocaba</p>
+                    <a href="#" class="text-blue-600 hover:underline mt-2 inline-block">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fórum Section -->
+    <section id="forum" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-4 text-center">Participe do Nosso Fórum</h2>
+            <p class="text-lg text-center mb-6">Junte-se à nossa comunidade para discutir tópicos de segurança cibernética.</p>
+            <div class="text-center">
+                <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Acesse o Fórum</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 Segurança Cibernética Academia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

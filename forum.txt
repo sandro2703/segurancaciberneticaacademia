@@ -1,0 +1,6 @@
+<form action="https://formspree.io/f/seu-id" method="POST">
+    <input type="text" name="nome" placeholder="Nome" class="w-full p-2 mb-4 rounded border">
+    <input type="email" name="email" placeholder="E-mail" class="w-full p-2 mb-4 rounded border">
+    <textarea name="mensagem" placeholder="Mensagem" class="w-full p-2 mb-4 rounded border" rows="4"></textarea>
+    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 w-full">Enviar</button>
+</form>

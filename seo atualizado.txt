@@ -1,0 +1,3 @@
+<meta name="description" content="Blog sobre segurança cibernética em Sorocaba, com artigos, eventos e comunidade de aprendizado.">
+<meta name="keywords" content="segurança cibernética, cibersegurança, Sorocaba, tecnologia, aprendizado, eventos">
+<meta name="author" content="Segurança Cibernética Academia">
